@@ -1,0 +1,155 @@
+html {
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+}
+
+/* Imagen de fondo para sección inicio */
+#container-inicio {
+    background-image: url('assets/fondo-inicio.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-outline-primary {
+    border-color: #0000FE !important;
+    
+}
+
+.btn-outline-primary:hover {
+    background-color: #0000FE !important;
+    border-color: #0000FE !important;
+}
+
+.border{
+ border-color: #0000FE !important;
+}    
+
+.thick-border {
+    border-width: 2px !important;
+}
+
+.titulo-servicio {
+  font-size: 1.25rem;
+}
+
+
+/*Slide de logos */
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-track {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 80px;
+    width: auto;
+    margin: 0 40px;
+    flex-shrink: 0;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.logo-img:hover {
+    filter: grayscale(0%);
+}
+
+.auto-resize {
+    resize: none;
+    overflow: hidden;
+    min-height: 120px; /* Altura fija de 4 líneas */
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #0000FE;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 2px;
+  padding: 0px;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: -5px 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 0px;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px 10px 0px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Ocultar flechas del input number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Alternativa al display:none de img de portafolios */
+.grid .img img {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}

@@ -1,0 +1,10 @@
+# URLs limpias (sin extensión)
+/portafolio /portafolio.html 200
+
+# Forzar redirects de CUALQUIER .html
+/index.html / 301!
+/portafolio.html /portafolio 301!
+
+# Redirects de anclas con .html
+/index.html#* /#:splat 301!
+/portafolio.html#* /portafolio#:splat 301!

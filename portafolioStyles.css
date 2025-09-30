@@ -1,0 +1,112 @@
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 90%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.img{
+    width: 100%;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.img:nth-child(1){
+    background-image: url(assets/portafolio/2025\ en\ olympus.webp);
+}
+
+.img:nth-child(2){
+    background-image: url(assets/portafolio/actualizacion\ varilla.webp);
+}
+
+.img:nth-child(3){
+    background-image: url(assets/portafolio/bebida.webp);
+}
+
+.img:nth-child(4){
+    background-image: url(assets/portafolio/campechana.webp);
+}
+
+.img:nth-child(5){
+    background-image: url(assets/portafolio/contenido\ viral\ 1\ m.webp);
+}
+
+.img:nth-child(6){
+    background-image: url(assets/portafolio/diseño\ ferreteria\ 2.webp);
+}
+
+.img:nth-child(7){
+    background-image: url(assets/portafolio/diseño\ lluvia.webp);
+}
+
+.img:nth-child(8){
+    background-image: url(assets/portafolio/DSC07981.webp);
+}
+
+.img:nth-child(9){
+    background-image: url(assets/portafolio/DSC07993.webp);
+}
+
+.img:nth-child(10){
+    background-image: url(assets/portafolio/DSC08040.webp);
+}
+
+.img:nth-child(11){
+    background-image: url(assets/portafolio/ejemplo\ IA.webp);
+}
+
+.img:nth-child(12){
+    background-image: url(assets/portafolio/ejemplo\ propuesta.webp);
+}
+
+.img:nth-child(13){
+    background-image: url(assets/portafolio/entrenamiento\ presencial.webp);
+}
+
+.img:nth-child(14){
+    background-image: url(assets/portafolio/material.webp);
+}
+
+.img:nth-child(15){
+    background-image: url(assets/portafolio/post\ RM.webp);
+}
+
+.img:nth-child(16){
+    background-image: url(assets/portafolio/precios\ vida.webp);
+}
+
+.img:nth-child(17){
+    background-image: url(assets/portafolio/san\ valentin\ olympus.webp);
+}
+
+
+@media (max-width:1600px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 5px;
+    }
+    
+    .img {
+        min-height: 40vh;
+        margin-bottom: 16px;
+    }
+}
