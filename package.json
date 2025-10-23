@@ -2,9 +2,6 @@
   "name": "supera-marketing",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Build complete'"
-  },
-  "dependencies": {
-    "netlify-plugin-minify-html": "^0.4.0"
+    "build": "node minify.js"
   }
 }
