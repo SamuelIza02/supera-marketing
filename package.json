@@ -2,10 +2,9 @@
   "name": "supera-marketing",
   "version": "1.0.0",
   "scripts": {
-    "build": "html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js index.html -o index.min.html",
-    "deploy": "npm run build && git add . && git commit -m 'Build for production' && git push"
+    "build": "echo 'Build complete'"
   },
-  "devDependencies": {
-    "html-minifier": "^4.0.0"
+  "dependencies": {
+    "netlify-plugin-minify-html": "^0.4.0"
   }
 }
